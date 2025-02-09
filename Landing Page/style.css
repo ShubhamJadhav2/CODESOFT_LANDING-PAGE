@@ -1,0 +1,393 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+html {
+    scroll-padding-top: 80px;
+}
+
+section {
+    padding-top: 100px; 
+}
+
+body {
+    background: linear-gradient(135deg, #1e1e1e, #111, #000); 
+    color: white;
+}
+
+header {
+    background: rgba(0, 0, 0, 0.8);
+    position: fixed;
+    width: 100%;
+    z-index: 1000;
+}
+
+html {
+    scroll-behavior: smooth; 
+}
+
+section {
+    height: 75vh; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+nav {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background: black;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 20px;
+}
+
+.nav-links a:hover {
+    color: #00bfff;
+    transform: scale(1.1);
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+}
+
+.nav-links li {
+    margin: 0 15px;
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+}
+
+.logo img {
+    width: 100px;
+    height: auto;
+}
+
+.search-bar {
+    display: flex;
+    align-items: center;
+}
+
+.search-bar input {
+    padding: 5px;
+    margin-right: 5px;
+}
+
+.search-bar button {
+    padding: 5px 10px;
+    background: #ff6600;
+    border: none;
+    color: white;
+    cursor: pointer;
+    margin-left: 5px;
+}
+
+#home {
+    background: url('Images/Background.jpg') no-repeat center center/cover;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: white;
+    position: relative;
+}
+
+.hero {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 80%;
+    max-width: 1200px;
+}
+
+.hero-text {
+    max-width: 600px;
+    text-align: left;
+}
+
+.hero-text h1 {
+    font-size: 42px;
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+
+.hero-text span {
+    color: #ff6600;
+}
+
+.hero-text p {
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+.join-btn {
+    background: #ff6600;
+    padding: 12px 25px;
+    color: white;
+    border: none;
+    font-size: 18px;
+    cursor: pointer;
+    transition: 0.3s ease;
+}
+
+.join-btn:hover {
+    background: #e65c00;
+}
+
+.login-box {
+    background: rgba(0, 0, 0, 0.8);
+    padding: 20px;
+    border-radius: 8px;
+    text-align: center;
+    width: 300px;
+}
+
+.login-box h2 {
+    font-size: 24px;
+    color: #ff6600;
+    margin-bottom: 15px;
+}
+
+.login-box input {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: none;
+    border-bottom: 2px solid #ff6600;
+    background: transparent;
+    color: white;
+    outline: none;
+}
+
+.login-btn {
+    width: 100%;
+    padding: 12px;
+    background: #ff6600;
+    border: none;
+    color: white;
+    font-size: 18px;
+    cursor: pointer;
+    transition: 0.3s ease;
+}
+
+.login-btn:hover {
+    background: #e65c00;
+}
+
+.login-box p {
+    font-size: 14px;
+    margin-top: 10px;
+}
+
+.login-box a {
+    color: #ff6600;
+    text-decoration: none;
+}
+
+.social-icons {
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+.social-icons a {
+    margin: 0 5px;
+}
+
+.social-icons img {
+    width: 30px;
+    height: 30px;
+}
+
+
+#about { 
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: left;
+    padding: 50px;
+}
+
+.about-container {
+    display: flex;
+    align-items: center;
+    gap: 40px;
+    max-width: 1000px;
+}
+
+.about-image img {
+    width: 300px; 
+    border-radius: 10px;
+}
+
+.about-text {
+    max-width: 600px;
+}
+
+.about-text h2 {
+    font-size: 36px;
+    color: #fca311;
+}
+
+.about-text p {
+    font-size: 18px;
+    line-height: 1.5;
+    margin: 10px 0;
+}
+
+.btn {
+    background-color: #fca311;
+    color: black;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    font-size: 18px;
+    margin-top: 15px;
+    border-radius: 5px;
+}
+
+.btn:hover {
+    background-color: #e68a00;
+}
+
+#services {
+    background: black; 
+    text-align: center;
+    padding: 60px 20px;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#services h2 {
+    font-size: 3em;
+    color: #ff7b00;
+    text-transform: uppercase;
+    font-weight: bold;
+    letter-spacing: 2px;
+    margin-bottom: 30px; 
+    display: block;
+    width: 100%;
+    text-align: center;
+}
+
+.service-container {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.service-box {
+    background: #222;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+    max-width: 300px;
+    border: 2px solid #fff;
+    transition: 0.3s;
+    box-shadow: 0 4px 10px rgba(255, 123, 0, 0.4);
+}
+
+.service-box h3 {
+    font-size: 1.5em;
+    color: white;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+.service-box p {
+    font-size: 1em;
+    color: #ddd;
+    line-height: 1.5;
+}
+
+#design {
+    background: #3334;
+    text-align: center; 
+    padding: 60px 20px;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#design h2 {
+    font-size: 2.5em;
+    color: #ff7b00;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    margin-bottom: 20px;
+}
+
+#design p {
+    font-size: 1.2em;
+    color: #ddd;
+    max-width: 600px;
+    text-align: center;
+    line-height: 1.6;
+    margin-bottom: 20px;
+}
+
+.btn {
+    background: #ff7b00;
+    color: #111;
+    padding: 12px 24px;
+    font-size: 1.2em;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: 0.3s;
+    font-weight: bold;
+}
+
+.btn:hover {
+    background: #fff;
+    color: #ff7b00;
+    transform: scale(1.05);
+}
+
+#contact {
+    background: black;
+    display: flex;
+    flex-direction: column;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+}
+
+form input, form textarea {
+    margin: 10px 0;
+    padding: 10px;
+    font-size: 16px;
+}
+
+form textarea {
+    height: 100px;
+}
+
+form button {
+    width: 150px;
+    align-self: center;
+}
+
